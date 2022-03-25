@@ -1,0 +1,461 @@
+
+
+html{
+	font-size: 62.5%;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: black;
+}
+
+h1{
+	font-size: 7rem;
+	color: black;
+}
+
+/*----------------------------Inicio del header------------------------*/
+
+header{
+	background-image: url(./../imagenes/imagenescss/images.jpg) ;
+	/*background-color: #D0C624;*/
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	width: 100%;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+
+header section#h1{
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	flex-direction: row-reverse;
+}
+
+
+
+
+header div{
+	display: flex;
+}
+
+header div a img {
+		width: 8rem;
+		display: flex;
+		margin-left: 20%;
+		margin-top: 20%;
+}
+
+nav{
+	width: 100%;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+nav ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+
+nav ul li{
+	list-style: none;
+	border-style: outset;
+	border-color: white;
+	border-width: 7px;
+}
+	nav ul li a{
+		text-decoration: none;
+		color: white;
+		font-weight: 300;
+		font-size: 2rem;
+		background-color: black;
+		padding: 3px;
+}
+
+/*--------------------------Fin del header-------------------*/
+
+/*--------------------------Inicio Main----------------------*/
+.carrusel__box--tamañoylugar{
+	width: 100%;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+ main section#carrusel article img{
+	width: 80%;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #DFBA1FFF;
+	margin-top: 20px;
+}
+
+main section#textodeparrafos{
+		display:flex ;
+		flex-direction: row;
+		justify-content: space-evenly;
+}
+
+
+main section#textodeparrafos article{
+	width: 29%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-style: solid;
+	padding: 15px 10px 15px 10px;
+	border-color: #DFBA1FFF;
+}
+
+main section#textodeparrafos article img{
+	width: 100%;
+}
+
+
+/*----------------------------Fin del main-----------------------*/
+
+
+
+/*-----------------------------------------*/
+/*Clases de tipo texto*/
+.titulo__alignandtype--thaoma-center{
+	text-align: center;
+	font-family: thaoma, sans-serif;
+}
+
+.h2{
+	font-size: 3rem ;
+	color: black;
+	margin: 20px 15px 20px 15px;
+	border-style: double;
+	background-color: #DFBA1FFF;
+	border-color: gray;
+	border-width: 5px;
+
+}
+
+#textodeparrafos{
+	color: white;
+	font-size: 2rem;
+	text-align: center;
+	font-family: verdana, sans-serif;
+}
+ 
+/*------------------------------------------*/
+
+
+
+/*------------------------------Inicio footer-----------------------------*/
+
+footer{
+	background-color:#DFBA1FFF ;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+footer div ul{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+footer div ul li{
+	list-style: none;
+	display: flex;
+	align-content: center;
+}
+
+footer div a img{
+	width: 10rem;
+	margin: 10px 7px 10px 7px;
+}
+
+
+footer div ul li a img{
+	width: 3rem;
+}
+
+/*------------------------------Fin del footer----------------------------*/
+
+
+
+
+/*------------------------Main de productos-------------------------------*/
+
+.productos{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.imgproductos{
+	width: 31%;
+	margin-bottom: 1.5%;
+	border-style: solid;
+	border-color: #DFBA1FFF;
+	border-width: 5px;
+}
+
+/*------------------------Fin del main -----------------------------------*/
+
+
+/*------------------------Main de contacto--------------------------------*/
+
+form{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+
+form fieldset{
+	background-color: #DFBA1FFF;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	width: 70%;
+	text-align: center;
+
+margin-bottom: 5%;
+}
+
+form fieldset div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+main form fieldset legend{
+	color:black ;
+}
+
+main form fieldset div label{
+	color:black;
+}
+
+
+main form fieldset div input{
+	text-align: center;
+	width: 350%;
+	margin-bottom: 5px;
+}
+
+
+/*-------------------------Fin del main-----------------------------------*/
+
+
+/*-------------------------Main de nosotros-------------------------------*/
+*{
+	color: white;
+}
+
+
+main section article img{
+	width: 90%;
+}
+
+.h2nosotros{
+	position: absolute;
+	text-align: right;
+	width: 20%;
+	font-size: 4rem;
+	padding-right: 4%;
+	color:#DFBA1FFF ;
+}
+
+.mainsection{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+main section article#primerafoto{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	width: 100%;
+	margin-right: 10%;
+	margin-top: 5%;
+}
+
+
+main section article{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-bottom: 50px;
+}
+
+main section article div{
+	width: 45%;
+	height: 100%;
+}
+
+main section article div iframe{
+	width: 100%;
+}
+
+main section article div p{
+	width: 100%;
+	height: 100%;
+}
+
+
+.h3nosotros{
+	width: 100%;
+	text-align: center;
+	font-size: 5rem;
+	margin-right: 30%;
+	margin-left: 30%;
+	margin-bottom: 1%;
+	margin-top: 3%;
+	border-style: solid;
+	border-color:#DFBA1FFF ;
+	border-width: 5px;
+}
+
+p{
+	text-align: center;
+	font-size: 3.5rem;
+}
+
+.imgdenosotros{
+	width: 100%;
+}
+
+.paragraph__border--solid{
+	border-style: solid;
+	border-color:#DFBA1FFF ;
+	border-width: 5px;
+}
+/*-------------------------Fin del main-----------------------------------*/
+ 
+.imgmedioambiente{
+	width: 100%;
+	border-style: solid;
+	border-color: #DFBA1FFF;
+	margin-left: 30px;
+}
+
+.imgmanualidades{
+	width: 75%;
+	margin-bottom: 25px;
+}
+
+.section{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.h2medioo{
+	color: black;
+	width: 90%;
+	text-align: center;
+	font-size: 6rem;
+	margin-top:8rem ;
+	margin-bottom: 6rem;
+	border-style: groove;
+	border-color: gray;
+	border-width: 10px;
+	background-color:#DFBA1FFF ;
+	font-family: thaoma, sans-serif;
+}
+
+
+.h3medio{
+	width: 100%;
+	font-size: 4rem;
+	text-align: left;
+	text-align: center;
+	border-style: solid;
+	border-color:#DFBA1FFF ;
+	margin: 0 25px 25px 25px;
+	font-family: thaoma, sans-serif;
+}
+.pmedio{
+	width: 100%;
+	font-size: 2.7rem;
+	border-style: solid;
+	border-color: #DFBA1FFF;
+	margin: 0 25px 0 25px;
+	text-align: justify;
+}
+
+.pmedio2{
+	border-style: solid;
+	border-color: #DFBA1FFF;
+	margin: 0 2% 1% 3%;
+}
+
+.divmedioambiente{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 50%;
+	margin-bottom: 8rem;
+}
+
+.section2{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.h2medio{
+	color: black;
+	width: 98%;
+	text-align: center;
+	font-size: 6rem;
+	margin-top:8rem ;
+	margin-bottom: 6rem;
+	border-style: groove;
+	border-color: gray;
+	border-width: 10px;
+	background-color:#DFBA1FFF ;
+	font-family: thaoma, sans-serif;
+}
+
+nav ul li{
+	background: linear-gradient(to top, #D0C624 , black );
+}
+
+
+
+
+nav ul li:hover{
+	transform: translateY(10px);
+	cursor: pointer;
+}
+
+footer ul li:hover{
+	transform: scale(1.25);
+	transition: transform 1.5s;
+}
